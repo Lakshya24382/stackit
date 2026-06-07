@@ -1,0 +1,112 @@
+.ask-container {
+  max-width: 720px;
+  margin: 0 auto;
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+}
+
+.ask-container h2 {
+  font-size: 22px;
+  margin-bottom: 24px;
+  color: #1a1a2e;
+}
+
+.form-group {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #374151;
+}
+
+.hint {
+  font-weight: 400;
+  color: #9ca3af;
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+.char-count {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+/* Quill editor height */
+.form-group .quill .ql-container {
+  min-height: 180px;
+  font-size: 14px;
+  border-radius: 0 0 6px 6px;
+}
+.form-group .quill .ql-toolbar {
+  border-radius: 6px 6px 0 0;
+}
+
+.tag-input-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 8px 12px;
+  min-height: 44px;
+  background: white;
+}
+
+.tag-input-wrapper:focus-within {
+  border-color: #4f46e5;
+}
+
+.tag-input-wrapper .tag {
+  background: #e0e7ff;
+  color: #4f46e5;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.tag-input-wrapper .tag button {
+  background: none;
+  border: none;
+  color: #4f46e5;
+  font-size: 14px;
+  padding: 0;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.tag-input-wrapper input {
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  flex: 1;
+  min-width: 120px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
